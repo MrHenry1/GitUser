@@ -1,0 +1,160 @@
+body {
+  background:#7159c1;
+  
+  color:snow;
+}
+
+form {
+  display:flex;
+
+  
+  justify-content: center;
+  
+}
+
+input[type="name"] {
+  background:#383641;
+  color:gray;
+  border:none;
+  border-radius:15px;
+  text-indent:5px;
+  height:35px;
+  width:12pc;
+  
+  outline:none;
+}
+
+button {
+  margin-left:5px;
+  border-radius:15px;
+  border:none;
+  
+  background:#293542;
+  color:snow;
+  
+  outline:none;
+}
+
+#loader {
+  margin:0;
+  margin-top:5px;
+}
+
+#results {
+  
+    margin: 0;
+    margin-top: 5px;
+  }
+
+
+#state {
+  height: 30px;
+  margin-top:15px;
+  display:flex;
+  justify-content:center;
+  
+  border-top: 1px solid #Ccc;
+  border-bottom:1px solid #ccc;
+}
+
+img {
+  border-radius:50%;
+  width:80px;
+  float:left;
+  margin-left:10px;
+  margin-top:20px;
+  
+}
+
+ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+li {
+  background: #383641;
+  height:120px;
+  clear:both;
+  margin-top:20px;
+  
+  border-radius:13px;
+  
+  
+}
+
+p {
+  margin:5px 0;
+  margin-top:50px;
+  margin-left:100px;
+  position:absolute;
+}
+
+strong {
+  font-size:20px;
+  
+  margin-top:20px;
+  margin-left:15px ;
+  
+  position:absolute;
+}
+
+a {
+  text-decoration:none;
+  margin-top: 75px;
+  margin-left:13px ;
+  color:mintcream;
+  position:absolute;
+}
+
+@keyframes showUser {
+  from {
+    opacity:0;
+    margin-right:300px;
+  }
+  to {
+    opacity: 1;
+    margin-left:0;
+  }
+}
+
+@keyframes showName {
+  from {
+    opacity:0;
+    margin-left:10px;
+  }
+  to {
+    opacity: 1;
+    margin-left:15px;
+  }
+}
+
+@keyframes showRef {
+  from {
+    opacity: 0;
+    margin-left: 10px;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 13px;
+  }
+}
+
+@keyframes showBio {
+  from {
+    opacity: 0;
+    margin-left: 90px;
+  }
+
+  to {
+    opacity: 1;
+    margin-left: 100px;
+  } 
+} 
