@@ -108,7 +108,7 @@ class App {
     
     
     
-    for(const user of this.users) {
+    this.users.forEach(user => {
       
   
       let li = document.createElement('li')
@@ -152,7 +152,7 @@ class App {
     
       
         this.listEl.appendChild(li)
-    }
+    })
   
   }
 }
