@@ -52,7 +52,7 @@ button {
   margin-top:15px;
   display:flex;
   justify-content:center;
-  
+  font-family:sans-serif;
   border-top: 1px solid #Ccc;
   border-bottom:1px solid #ccc;
 }
